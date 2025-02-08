@@ -1,0 +1,49 @@
+[330ns] Shutting down all processes 
+[914.53µs] Terminating process supervisor with PID 36 (state: S, cmdlind: [supervisor run] <nil>). 
+[18.449999ms] Terminating process node with PID 736 (state: S, cmdlind: [/ide/node /ide/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=623] <nil>). 
+[18.505129ms] Terminating process sh with PID 24988 (state: S, cmdlind: [sh -c  tee /workspace/queryResults.log] <nil>). 
+[18.576949ms] Terminating process postgres with PID 53716 (state: S, cmdlind: [postgres: 12/main: logical replication launcher   ] <nil>). 
+[18.594459ms] Terminating process node with PID 623 (state: R, cmdlind: [/ide/node --dns-result-order=ipv4first /ide/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=false] <nil>). 
+[18.611069ms] Terminating process tee with PID 24989 (state: S, cmdlind: [tee /workspace/queryResults.log] <nil>). 
+[18.689199ms] Terminating process psql with PID 1371 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[18.700729ms] Terminating main process errored: waitid: no child processes 
+[18.733499ms] Terminating process node with PID 592 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=fileWatcher] <nil>). 
+[18.756229ms] Terminating process postgres with PID 53709 (state: S, cmdlind: [postgres: 12/main: logger   ] <nil>). 
+[18.826299ms] Terminating process tee with PID 2266 (state: T, cmdlind: [tee /workspace/queryResults.log] <nil>). 
+[18.833429ms] Terminating process postgres with PID 53714 (state: S, cmdlind: [postgres: 12/main: autovacuum launcher   ] <nil>). 
+[18.844649ms] Terminating process bash with PID 723 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[18.871669ms] Terminating process postgres with PID 53708 (state: S, cmdlind: [/usr/lib/postgresql/12/bin/postgres -D /var/lib/postgresql/12/main -c config_file=/etc/postgresql/12/main/postgresql.conf] <nil>). 
+[18.896699ms] Terminating process postgres with PID 53712 (state: S, cmdlind: [postgres: 12/main: background writer   ] <nil>). 
+[18.958729ms] Terminating process node with PID 72 (state: S, cmdlind: [/ide/node /ide/out/server-main.js --log=info --install-builtin-extension gitpod.gitpod-theme --install-builtin-extension github.vscode-pull-request-github --install-extension coderoad.coderoad --port 23000 --host 0.0.0.0 --without-connection-token --server-data-dir /workspace/.vscode-remote --do-not-sync --start-server] <nil>). 
+[19.022709ms] Terminating main process errored: waitid: no child processes 
+[19.054829ms] Terminating process postgres with PID 53713 (state: S, cmdlind: [postgres: 12/main: walwriter   ] <nil>). 
+[19.066659ms] Terminating process bash with PID 15797 (state: S, cmdlind: [/bin/bash --init-file /ide/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh] <nil>). 
+[19.063469ms] Process sh with PID 1375 is a zombie, skipping termination. 
+[19.135559ms] Terminating process psql with PID 2263 (state: T, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[19.151159ms] Terminating process postgres with PID 53715 (state: S, cmdlind: [postgres: 12/main: stats collector   ] <nil>). 
+[19.244939ms] Terminating process node with PID 705 (state: S, cmdlind: [/ide/node /ide/extensions/redhat.vscode-yaml/dist/languageserver.js --node-ipc --clientProcessId=623] <nil>). 
+[19.268859ms] Terminating process psql with PID 24986 (state: S, cmdlind: [psql --username=freecodecamp --dbname=postgres] <nil>). 
+[19.280929ms] Terminating process postgres with PID 53711 (state: S, cmdlind: [postgres: 12/main: checkpointer   ] <nil>). 
+[19.369229ms] Terminating main process errored: waitid: no child processes 
+[19.393649ms] Terminating process sh with PID 2265 (state: T, cmdlind: [sh -c  tee /workspace/queryResults.log] <nil>). 
+[19.470269ms] Terminating process node with PID 682 (state: S, cmdlind: [/ide/node /ide/out/bootstrap-fork --type=ptyHost --logsPath /workspace/.vscode-remote/data/logs/20250208T055944] <nil>). 
+[19.494029ms] Terminating main process errored: waitid: no child processes 
+[19.628189ms] Terminating main process errored: waitid: no child processes 
+[19.724099ms] Terminating main process errored: waitid: no child processes 
+[20.062089ms] Terminating main process errored: waitid: no child processes 
+[20.129879ms] Terminating main process errored: waitid: no child processes 
+[20.438769ms] Terminating main process errored: waitid: no child processes 
+[20.590099ms] Terminating main process errored: waitid: no child processes 
+[20.708939ms] Terminating main process errored: waitid: no child processes 
+[20.810499ms] Terminating main process errored: waitid: no child processes 
+[20.883398ms] Terminating main process errored: waitid: no child processes 
+[20.999118ms] Terminating main process errored: waitid: no child processes 
+[21.130709ms] Terminating main process errored: waitid: no child processes 
+[22.263058ms] Terminating main process errored: waitid: no child processes 
+[22.278958ms] Terminating main process errored: waitid: no child processes 
+[22.492758ms] Terminating main process errored: waitid: no child processes 
+[22.590449ms] Terminating main process errored: waitid: no child processes 
+[22.679189ms] Terminating main process errored: waitid: no child processes 
+[22.744918ms] Terminating main process errored: waitid: no child processes 
+[54.356946ms] Terminating main process errored: waitid: no child processes 
+[55.770766ms] Finished shutting down all processes. 

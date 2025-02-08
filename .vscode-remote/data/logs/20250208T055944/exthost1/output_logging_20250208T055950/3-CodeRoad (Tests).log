@@ -1,0 +1,3944 @@
+FAILED TEST LOG
+  ✘ You should have a database named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/40.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" database should have a table named "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/70.test.js:19:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ You should display the details of "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.bikes"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should display the details of "bikes"
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Table"public\.bikes"/.test(lastQueryResult))
+
+at Context.<anonymous> (test/100.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should echo the suggested output
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+-e[ \t]+('|")\\n~~~~~ Bike Rental Shop ~~~~~\\n\1[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/470.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should echo the suggested output
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo[ \t]+-e[ \t]+('|")\\n~~~~~ Bike Rental Shop ~~~~~\\n\1[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/470.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s*}/m.test(scriptFile))
+
+at Context.<anonymous> (test/510.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s*}/m.test(scriptFile))
+
+at Context.<anonymous> (test/510.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s*}/m.test(scriptFile))
+
+at Context.<anonymous> (test/510.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s*}/m.test(scriptFile))
+
+at Context.<anonymous> (test/510.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)How may I help you\?\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/520.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*MAIN_MENU[\s\S]*}\s*MAIN_MENU\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/530.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*MAIN_MENU[\s\S]*}\s*MAIN_MENU\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/530.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\n\n1. Rent a bike\n2. Return a bike\n3. Exit/.test(scriptOutput) && /MAIN_MENU[\s\S]*Rent a bike[\s\S]*}/.test(scriptFile))
+
+at Context.<anonymous> (test/630.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\n\n1. Rent a bike\n2. Return a bike\n3. Exit/.test(scriptOutput) && /MAIN_MENU[\s\S]*Rent a bike[\s\S]*}/.test(scriptFile))
+
+at Context.<anonymous> (test/630.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\n\n1. Rent a bike\n2. Return a bike\n3. Exit/.test(scriptOutput) && /MAIN_MENU[\s\S]*Rent a bike[\s\S]*}/.test(scriptFile))
+
+at Context.<anonymous> (test/630.test.js:9:5)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at Socket.<anonymous> (node:internal/child_process:457:11)
+at Socket.emit (node:events:518:28)
+at Pipe.<anonymous> (node:net:337:12)
+FAILED TEST LOG
+
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+  ✘ Your script should display the correct "MAIN_MENU" options
+
+Error: Command failed: ../bike-shop.sh
+../bike-shop.sh: line 7: unexpected EOF while looking for matching `"'
+../bike-shop.sh: line 11: syntax error: unexpected end of file
+
+at ChildProcess.exithandler (node:child_process:422:12)
+at ChildProcess.emit (node:events:518:28)
+at maybeClose (node:internal/child_process:1105:16)
+at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should read user input into a "MAIN_MENU_SELECTION" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/MAIN_MENU[\s\S]*read[ \t]+MAIN_MENU_SELECTION[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/650.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RENT_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU[ \t]*;?\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/660.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)Rent Menu\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)Rent Menu\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)Rent Menu\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/670.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have a "RETURN_MENU" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}[ \t]*;?\s*(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU/.test(scriptFile))
+
+at Context.<anonymous> (test/680.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RETURN_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)Return Menu\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/690.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RETURN_MENU" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RETURN_MENU|RETURN_MENU[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+('|"|)Return Menu\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/690.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have an empty "EXIT" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}\s*(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have an empty "EXIT" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}\s*(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have an empty "EXIT" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}\s*(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have an empty "EXIT" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}\s*(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have an empty "EXIT" function
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/}\s*(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*}[ \t]*;?\s*MAIN_MENU\s*$/.test(scriptFile))
+
+at Context.<anonymous> (test/700.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "EXIT" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+-e[ \t]+('|")\\nThank you for stopping in\.\\n\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "EXIT" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+-e[ \t]+('|")\\nThank you for stopping in\.\\n\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "EXIT" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+-e[ \t]+('|")\\nThank you for stopping in\.\\n\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "EXIT" function should echo the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+EXIT|EXIT[ \t]*\([ \t]*\))\s*{\s*echo[ \t]+-e[ \t]+('|")\\nThank you for stopping in\.\\n\2[ \t]*;?\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/710.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should take you to the various menus and ouput the correct text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/Rent Menu/.test(scriptOutput1) && /Return Menu/.test(scriptOutput2) && /Thank you for stopping in\./.test(scriptOutput3) && /\*[ \t]*\)\s*MAIN_MENU\s*;;/.test(scriptFile))
+
+at Context.<anonymous> (test/720.test.js:11:5)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your "case" statement should have the correct argument with the "MAIN_MENU" function call
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\*[ \t]*\)\s*MAIN_MENU[ \t]+('|")Please enter a valid option\.\1\s*;;/.test(scriptFile))
+
+at Context.<anonymous> (test/740.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s+if[ \t]+\[\[[ \t]+\$1[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*echo[ \t]+-e[ \t]+('|")\\n\$1\3([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s+if[ \t]+\[\[[ \t]+\$1[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*echo[ \t]+-e[ \t]+('|")\\n\$1\3([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+MAIN_MENU|MAIN_MENU[ \t]*\([ \t]*\))\s*{\s+if[ \t]+\[\[[ \t]+\$1[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*echo[ \t]+-e[ \t]+('|")\\n\$1\3([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/750.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/(function[ \t]+RENT_MENU|RENT_MENU[ \t]*\([ \t]*\))\s*{\s*\n+\s*#[ \t]*get available bikes\s*\n+\s*#[ \t]*if no bikes available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*}/.test(scriptFile))
+
+at Context.<anonymous> (test/860.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "PSQL" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\/bash\s*\n+\s*PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/920.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "PSQL" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\/bash\s*\n+\s*PSQL="psql -X --username=freecodecamp --dbname=bikes --tuples-only -c"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/920.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "AVAILABLE_BIKES" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /AVAILABLE_BIKES=\$\(\s*\$PSQL/.test(scriptFile))
+
+at Context.<anonymous> (test/970.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should correctly echo the "AVAILABLE_BIKES" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/AVAILABLE_BIKES[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/980.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly echo the "AVAILABLE_BIKES" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/AVAILABLE_BIKES[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/980.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly echo the "AVAILABLE_BIKES" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/AVAILABLE_BIKES[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/980.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should correctly echo the "AVAILABLE_BIKES" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/AVAILABLE_BIKES[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*;?\s*$/m.test(scriptFile))
+
+at Context.<anonymous> (test/980.test.js:8:5)
+FAILED TEST LOG
+  ✘ The "bikes" table should not have any "available" bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/993.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" table should not have any "available" bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/993.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" table should not have any "available" bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/993.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" table should not have any "available" bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/993.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ The "bikes" table should not have any "available" bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/993.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/no bikes available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$AVAILABLE_BIKES[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1000.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+"Sorry, we don't have any bikes available right now\."([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1010.test.js:8:3)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*#[ \t]*ask for bike to rent\s*\n+\s*#[ \t]*if input is not a number\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1100.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nHere are the bikes we have available:\1/.test(scriptFile))
+
+at Context.<anonymous> (test/1105.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nHere are the bikes we have available:\1/.test(scriptFile))
+
+at Context.<anonymous> (test/1105.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nHere are the bikes we have available:\1/.test(scriptFile))
+
+at Context.<anonymous> (test/1105.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nHere are the bikes we have available:\1/.test(scriptFile))
+
+at Context.<anonymous> (test/1105.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else\s*\n+\s*#[ \t]*display available bikes\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nHere are the bikes we have available:\1/.test(scriptFile))
+
+at Context.<anonymous> (test/1105.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bikes we have available:('|")([ \t]*;\s*|\s*\n+\s*)echo[ \t]+"\$AVAILABLE_BIKES"([ \t]*;\s*|\s*\n*\s*)$/m.test(scriptFile) && scriptFile.match(/echo[ \t]+"\$AVAILABLE_BIKES"/g).length === 1)
+
+at Context.<anonymous> (test/1110.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested "while" loop
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/else[\s\S]*echo[ \t]+"\$AVAILABLE_BIKES"[ \t]*\|\s*while\s+read[ \t]+BIKE_ID[ \t]+BAR[ \t]+TYPE[ \t]+BAR[ \t]+SIZE([ \t]*;\s*|\s*\n+\s*)do\s+echo[ \t]+("|)\$BIKE_ID[ \t]+\$TYPE[ \t]+\$SIZE\2([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1140.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly display the available bikes
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/do\s+echo[ \t]+"\$BIKE_ID\) \$SIZE\\" \$TYPE Bike"([ \t]*;\s*|\s*\n+\s*)done[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1145.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/done([ \t]*;\s*|\s*\n+\s*)#[ \t]*ask for bike to rent\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhich one would you like to rent\?\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1160.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/done([ \t]*;\s*|\s*\n+\s*)#[ \t]*ask for bike to rent\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhich one would you like to rent\?\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1160.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/done([ \t]*;\s*|\s*\n+\s*)#[ \t]*ask for bike to rent\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhich one would you like to rent\?\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1160.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/done([ \t]*;\s*|\s*\n+\s*)#[ \t]*ask for bike to rent\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhich one would you like to rent\?\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1160.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should echo the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/done([ \t]*;\s*|\s*\n+\s*)#[ \t]*ask for bike to rent\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhich one would you like to rent\?\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1160.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "RENT_MENU" function should read input into the correct variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/would you like to rent\?('|")([ \t]*;\s*|\s*\n+\s*)read[ \t]+BIKE_ID_TO_RENT[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1162.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested commands in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*\[\[\s+!\s+('|"|)11\1\s+=~\s+\^\[0-9\]\+\$\s+\]\]\s*;\s*echo\s+\$\?\s*;?\s*$/g.test(lastCommand))
+
+at Context.<anonymous> (test/1170.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the suggested "if" statement added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if input is not a number\s*\n+\s*if[ \t]+\[\[[ \t]+![ \t]+\$BIKE_ID_TO_RENT[ \t]+=~[ \t]+\^\[0-9\]\+\$[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1176.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the suggested argument correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if[\s\S]*send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That is not a valid bike number\.\1([ \t]*;\s*|\s*\n+\s*)fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1177.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the suggested argument correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if[\s\S]*send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That is not a valid bike number\.\1([ \t]*;\s*|\s*\n+\s*)fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1177.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the suggested argument correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_ID_TO_RENT[\s\S]*if[\s\S]*send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That is not a valid bike number\.\1([ \t]*;\s*|\s*\n+\s*)fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1177.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the "else" statement with the suggested comments added correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if[\s\S]*![ \t]+\$BIKE_ID_TO_RENT[\s\S]*then[\s\S]*not a valid bike number[\s\S]*else\s*\n+\s*#[ \t]*get bike availability\s*\n+\s*#[ \t]*if not available\s*\n+\s*#[ \t]*send to main menu\s*\n+\s*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1179.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_AVAILABILITY=\$\(\s*\$PSQL[\s\S]*BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_AVAILABILITY=\$\(\s*\$PSQL[\s\S]*BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_AVAILABILITY=\$\(\s*\$PSQL[\s\S]*BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_AVAILABILITY=\$\(\s*\$PSQL[\s\S]*BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_AVAILABILITY=\$\(\s*\$PSQL[\s\S]*BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1180.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script correctly print the "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_AVAILABILITY[\s\S]*echo[ \t]+("|)\$BIKE_AVAILABILITY\1[\s\S]*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1190.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script correctly print the "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_AVAILABILITY[\s\S]*echo[ \t]+("|)\$BIKE_AVAILABILITY\1[\s\S]*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1190.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script correctly print the "BIKE_AVAILABILITY" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_AVAILABILITY[\s\S]*echo[ \t]+("|)\$BIKE_AVAILABILITY\1[\s\S]*fi[\s\S]*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1190.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your "MAIN_MENU" function should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/if not available\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$BIKE_AVAILABILITY[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*send to main menu\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1210.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That bike is not available\.\1([ \t]*;\s*|\s*\n+\s*)fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1215.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That bike is not available\.\1([ \t]*;\s*|\s*\n+\s*)fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1215.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That bike is not available\.\1([ \t]*;\s*|\s*\n+\s*)fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1215.test.js:8:3)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the correct argument
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")That bike is not available\.\1([ \t]*;\s*|\s*\n+\s*)fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1215.test.js:8:3)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should add an "else" with the correct comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/bike is not available\.('|")([ \t]*;\s*|\s*\n+\s*)else\s*\n+\s*#[ \t]*get customer info\s*\n+\s*#[ \t]*if customer doesn't exist\s*\n+\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1236.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should echo the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/get customer info\s*\n+\s*echo[ \t]+-e[ \t]+"\\nWhat's your phone number\?"/.test(scriptFile))
+
+at Context.<anonymous> (test/1240.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should echo the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/get customer info\s*\n+\s*echo[ \t]+-e[ \t]+"\\nWhat's your phone number\?"/.test(scriptFile))
+
+at Context.<anonymous> (test/1240.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should echo the suggested text correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/get customer info\s*\n+\s*echo[ \t]+-e[ \t]+"\\nWhat's your phone number\?"/.test(scriptFile))
+
+at Context.<anonymous> (test/1240.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly read input into a "PHONE_NUMBER" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/What's your phone number\?"([ \t]*;\s*|\s*\n+\s*)read[ \t]+PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1250.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly read input into a "PHONE_NUMBER" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/What's your phone number\?"([ \t]*;\s*|\s*\n+\s*)read[ \t]+PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1250.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/PHONE_NUMBER([ \t]*;\s*|\s*\n+\s*)CUSTOMER_NAME=\$\(\s*\$PSQL[ \t]*"\s*SELECT\s+name\s+FROM\s+customers\s+WHERE\s+phone\s*=\s*'\$PHONE_NUMBER'\s*;?\s*"\s*\)/i.test(scriptFile) && /CUSTOMER_NAME=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1260.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "if" condition added
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/customer doesn't exist\s*\n+\s*if[ \t]+\[\[[ \t]+-z[ \t]+\$CUSTOMER_NAME[ \t]+\]\]([ \t]*;\s*|\s*\n+\s*)then\s*#[ \t]*get new customer name\s*\n+\s*#[ \t]*insert new customer\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1265.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\$CUSTOMER_NAME[\s\S]*then[\s\S]*#[ \t]*get new customer name\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhat's your name\?\1[\s\S]*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1270.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\$CUSTOMER_NAME[\s\S]*then[\s\S]*#[ \t]*get new customer name\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhat's your name\?\1[\s\S]*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1270.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\$CUSTOMER_NAME[\s\S]*then[\s\S]*#[ \t]*get new customer name\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhat's your name\?\1[\s\S]*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1270.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the suggested text
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\$CUSTOMER_NAME[\s\S]*then[\s\S]*#[ \t]*get new customer name\s*\n+\s*echo[ \t]+-e[ \t]+('|")\\nWhat's your name\?\1[\s\S]*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1270.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly read input into a "CUSTOMER_NAME" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/\$CUSTOMER_NAME[\s\S]*then[\s\S]*What's your name\?('|")[\s\S]*read[ \t]+CUSTOMER_NAME([ \t]*;\s*|\s*\n+\s*)[\s\S]*fi\s*\n+\s*fi\s*\n+\s*fi\s*\n+\s*fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1280.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_CUSTOMER_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_CUSTOMER_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_NAME[\s\S]*\$PHONE_NUMBER|\$PHONE_NUMBER[\s\S]*\$CUSTOMER_NAME)/.test(scriptFile))
+
+at Context.<anonymous> (test/1290.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly add the suggested comments
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/fi\s+#[ \t]+get customer_id\s*\n+\s*#[ \t]+insert bike rental\s*\n+\s*#[ \t]+set bike availability to false\s*\n+\s*#[ \t]+get bike info\s*\n+\s*#[ \t]+send to main menu\s*\n+\s*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1315.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ Your script should have the correct "CUSTOMER_ID" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /CUSTOMER_ID=\$\(\s*\$PSQL[\s\S]*\$PHONE_NUMBER/.test(scriptFile))
+
+at Context.<anonymous> (test/1320.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create a "INSERT_RENTAL_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /INSERT_RENTAL_RESULT=\$\(\s*\$PSQL[\s\S]*(\$CUSTOMER_ID[\s\S]*\$BIKE_ID_TO_RENT|\$BIKE_ID_TO_RENT[\s\S]*\$CUSTOMER_ID)/.test(scriptFile))
+
+at Context.<anonymous> (test/1330.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "SET_TO_FALSE_RESULT" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /SET_TO_FALSE_RESULT=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1370.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly view all the data in the "bikes" table
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/statement:select\*frombikesorderbybike_id;/i.test(lastLog) && !/ERROR/.test(lastLog))
+
+at Context.<anonymous> (test/1400.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly create the suggested "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(re.test(scriptFile) && /BIKE_INFO=\$\(\s*\$PSQL[\s\S]*\$BIKE_ID_TO_RENT/.test(scriptFile))
+
+at Context.<anonymous> (test/1401.test.js:9:5)
+FAILED TEST LOG
+  ✘ You should correctly print the "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[\s\S]*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1402.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[\s\S]*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1402.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[\s\S]*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1402.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly print the "BIKE_INFO" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[\s\S]*fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1402.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+('|")28 \| Mountain\1\s*\|\s*sed\s+('|")s\/ \|\/\/\2\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1408.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+('|")28 \| Mountain\1\s*\|\s*sed\s+('|")s\/ \|\/"\/\2\s*;?\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1410.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should print the "BIKE_INFO" variable in the correct format
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+('|")s\/ \|\/"\/\2/.test(scriptFile))
+
+at Context.<anonymous> (test/1411.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should run your script by executing it
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(false)
+
+at Context.<anonymous> (test/1413.test.js:22:7)
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+FAILED TEST LOG
+  ✘ You should correctly create the "BIKE_INFO_FORMATTED" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*BIKE_INFO_FORMATTED=\$\([ \t]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+'s\/ \|\/"\/'[ \t]*\)/.test(scriptFile))
+
+at Context.<anonymous> (test/1415.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create the "BIKE_INFO_FORMATTED" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*BIKE_INFO_FORMATTED=\$\([ \t]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+'s\/ \|\/"\/'[ \t]*\)/.test(scriptFile))
+
+at Context.<anonymous> (test/1415.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create the "BIKE_INFO_FORMATTED" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*BIKE_INFO_FORMATTED=\$\([ \t]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+'s\/ \|\/"\/'[ \t]*\)/.test(scriptFile))
+
+at Context.<anonymous> (test/1415.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should correctly create the "BIKE_INFO_FORMATTED" variable
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO[\s\S]*BIKE_INFO_FORMATTED=\$\([ \t]*echo[ \t]+("|)\$BIKE_INFO\1[ \t]*\|[ \t]*sed[ \t]+'s\/ \|\/"\/'[ \t]*\)/.test(scriptFile))
+
+at Context.<anonymous> (test/1415.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the suggested argument correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO_FORMATTED[\s\S]*send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")I have put you down for the \$BIKE_INFO_FORMATTED Bike, \$CUSTOMER_NAME\.\1([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1417.test.js:8:5)
+FAILED TEST LOG
+  ✘ Your script should call the "MAIN_MENU" function with the suggested argument correctly
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/BIKE_INFO_FORMATTED[\s\S]*send to main menu\s*\n+\s*MAIN_MENU[ \t]+('|")I have put you down for the \$BIKE_INFO_FORMATTED Bike, \$CUSTOMER_NAME\.\1([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi([ \t]*;\s*|\s*\n+\s*)fi/.test(scriptFile))
+
+at Context.<anonymous> (test/1417.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+"\$\(\s*echo\s+('|") M e \1\s*;?\s*\)\.\s*"\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1422.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+"\$\(\s*echo\s+('|") M e \1\s*\|\s*sed\s+('|")s\/\^ \/\/g\2;?\s*\)\.\s*"\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1427.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+"\$\(\s*echo\s+('|")\s\s\sM e \1\s*\|\s*sed\s+('|")s\/\^ \/\/g\2;?\s*\)\.\s*"\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1428.test.js:8:5)
+FAILED TEST LOG
+  ✘ You should enter the suggested command in the terminal
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+assert(/^\s*echo\s+"\$\(\s*echo\s+('|")\s\s\sM e \1\s*\|\s*sed\s+('|")s\/\^ \*\/\/g\2;?\s*\)\.\s*"\s*$/.test(lastCommand))
+
+at Context.<anonymous> (test/1430.test.js:8:5)

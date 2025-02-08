@@ -1,0 +1,108 @@
+            
++----------------------+
+| pg_terminate_backend |
++----------------------+
++----------------------+
+(0 rows)
+
+SET
+SET
+SET
+SET
+SET
+       
++------------+
+| set_config |
++------------+
+|            |
++------------+
+(1 row)
+
+SET
+SET
+SET
+SET
+DROP DATABASE
+CREATE DATABASE
+ALTER DATABASE
+SET
+SET
+SET
+SET
+SET
+       
++------------+
+| set_config |
++------------+
+|            |
++------------+
+(1 row)
+
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+     
++--------+
+| setval |
++--------+
+|      9 |
++--------+
+(1 row)
+
+     
++--------+
+| setval |
++--------+
+|      1 |
++--------+
+(1 row)
+
+     
++--------+
+| setval |
++--------+
+|      4 |
++--------+
+(1 row)
+
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
